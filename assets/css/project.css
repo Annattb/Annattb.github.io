@@ -1,0 +1,196 @@
+#header nav .web li {
+    float: left;
+    -moz-transition: color 0.2s ease-in-out;
+    -webkit-transition: color 0.2s ease-in-out;
+    -ms-transition: color 0.2s ease-in-out;
+    transition: color 0.2s ease-in-out;
+    color: #666;
+    /* background-color: greenyellow; */
+    display: inline-block;
+    text-decoration: none;
+}
+#header nav .web li:hover{
+    
+    /* border-bottom: 3px solid #000; */
+    
+}
+/* #header nav .web li a:hover{
+    color: #000; 
+} */
+#header nav .web li:hover ul {
+    border: 1px solid #000;
+    
+}
+#header nav .web li:hover ul li{
+    /* border: 1px solid #000; */
+    background-color: #efefef;
+    border-radius: 0px;
+    
+}
+
+#header nav ul li a {
+    -moz-transition: color 0.2s ease-in-out;
+    -webkit-transition: color 0.2s ease-in-out;
+    -ms-transition: color 0.2s ease-in-out;
+    transition: color 0.2s ease-in-out;
+    display: inline-block;
+    text-decoration: none;
+}
+
+    #header nav .web li ul{
+        width: 150px;
+        padding: 0;
+        list-style: none;
+        
+        display: none;
+    }
+        #header nav .web li:hover ul{
+            display: block;
+            border: 1px solid #000;
+            background-color: gray;
+        }
+    
+    #header nav .web li ul li{  
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        font-size: 18px;
+        
+    }
+
+#footer .container {
+    display: inline-block;
+    
+}
+#footer .container .web{
+    float: right;
+    /* 一级导航列表 */
+    /* width: 400px; */
+    height: 200px;
+    /* border: 1px solid #000; */
+    margin: 0 ;
+    padding: 0;
+}
+    #footer .container .web li{
+        /* 一级导航项 */
+        width: 200px;
+        /* 全部靠左浮动 */
+        float: left;
+        list-style: none;
+        /* 行内 */
+        display: inline;
+        font-size: 20px;
+        line-height: 40px;
+        
+    }
+
+        #footer .container .web li ul{
+            float: center;
+            width: 200px;
+            height: 100px;
+            padding: 0;
+            list-style: none;
+            /* display: none; */
+           
+        }
+        #footer .container .web li:hover ul{
+            
+            display: block;
+        }
+        #footer .container .web li-team:hover ul-team{
+            
+            display: block;
+        }
+
+#footer .container .icons{
+    float: left;
+    width: 300px;
+    height: 200px;
+    /* border: 1px solid #000; */
+}
+    #footer .container .icons li{
+        float: left;
+    }
+    #footer .container .icons li a{
+        
+        font-size: 30px;
+    }
+#main .container .member ul{
+    list-style: none;
+    /* display: inline; */
+
+}
+#main .container .member ul li{
+    list-style: none;
+    display: inline;
+
+}
+#main .member{
+    position: relative;
+    width: 1200px;
+    height: 600px;
+    margin: 20 auto;
+    /* border: 1px solid #000; */
+}
+
+#main .member li {
+    position: relative;
+    float: left;
+    width: 200px;
+    height: 300px;
+    margin-right: 100px;
+    padding: 0;
+    /* border: 1px solid #000; */
+    overflow: hidden;
+
+}
+#main .member :nth-child(4){
+    margin-right:0px ;
+}#main .member :nth-child(7){
+    margin-right:0px ;
+}
+#main .member li .peo img{
+    
+    position: absolute;
+    float: left;
+    width: 200px;
+    margin-right: 20px;
+
+}
+#main .member .txt h4{
+    color: aliceblue;
+    font-size: 30px;
+    margin: 0;
+
+}
+#main .member .txt h5{
+    color: aliceblue;
+    font-size: 20px;
+    margin: 0;
+
+}
+#main .member .txt p{
+    color: #fff;
+    font-size: 20px;
+    margin: 0;
+
+}
+
+
+#main .member .txt{
+    position: absolute;
+    bottom: 80px;
+    float: left;
+    width: 200px;
+    margin-right: 20px;
+    font-size: 10px;
+
+}
+#main .member li:hover .peo{
+    transform: scale(1.1);
+
+}
+#main .member li:hover .txt{
+    transform: translateY(-30px)
+
+}
