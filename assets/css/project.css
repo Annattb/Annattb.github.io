@@ -1,31 +1,31 @@
 #header nav .web li {
+    display: inline-block;
+    height: 30px;
+}
+#header nav .web li {
     float: left;
     -moz-transition: color 0.2s ease-in-out;
     -webkit-transition: color 0.2s ease-in-out;
     -ms-transition: color 0.2s ease-in-out;
     transition: color 0.2s ease-in-out;
     color: #666;
-    /* background-color: greenyellow; */
     display: inline-block;
     text-decoration: none;
+    margin-left: 0;
+    width: 100px;
+    font-size: 12px;
 }
-#header nav .web li:hover{
-    
-    /* border-bottom: 3px solid #000; */
-    
-}
-/* #header nav .web li a:hover{
+
+#header nav .web li a:hover{
     color: #000; 
-} */
+}
 #header nav .web li:hover ul {
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
     
 }
-#header nav .web li:hover ul li{
+#header nav .web li:hover ul li{ 
     /* border: 1px solid #000; */
-    background-color: #efefef;
     border-radius: 0px;
-    
 }
 
 #header nav ul li a {
@@ -35,27 +35,32 @@
     transition: color 0.2s ease-in-out;
     display: inline-block;
     text-decoration: none;
+    font-size: 10px;
+    height: 10;
+    
+    
+}
+#header nav ul li ul a {
+    display:block;
+    text-decoration: none;
+    font-size: 10px;
+    height: 20px;
 }
 
     #header nav .web li ul{
-        width: 150px;
+        width: 100px;
         padding: 0;
         list-style: none;
-        
         display: none;
     }
         #header nav .web li:hover ul{
-            display: block;
-            border: 1px solid #000;
-            background-color: gray;
+            display: inline-block;
         }
     
     #header nav .web li ul li{  
-        padding: 0;
-        margin: 0;
+        margin: 10;
         list-style: none;
-        font-size: 18px;
-        
+        display: inline-block;
     }
 
 #footer .container {
@@ -94,11 +99,9 @@
            
         }
         #footer .container .web li:hover ul{
-            
             display: block;
         }
         #footer .container .web li-team:hover ul-team{
-            
             display: block;
         }
 
@@ -193,4 +196,32 @@
 #main .member li:hover .txt{
     transform: translateY(-30px)
 
+}
+h3,h4,p{
+    color: black; 
+}
+
+.topleft{
+    float: left;
+}
+.topleft p{
+    padding-left: 10px;
+    float: right;
+    font-size: 15px;
+    font-weight: 700;
+    /* background-color: pink; */
+   
+}
+
+.feature-grid .feature{
+    width: 350px;
+    display: block;
+    margin: 0 auto;
+}
+.feature-grid .feature .image.rounded{
+    float: left;
+}
+.feature-grid .feature .content{
+    text-align: left;
+    float: left;
 }
